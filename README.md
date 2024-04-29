@@ -25,13 +25,3 @@ python Notebook1.ipynb
 ## Model
 
 The machine learning model used in this project is a Random Forest classifier, trained on a dataset containing historical order data. The model predicts the likelihood of late delivery based on features such as shipping mode, days for shipping, customer segment, etc.
-
-## File Structure
-
-late-delivery-prediction/
-│
-├── Notebook1.ipynb # Dash app implementation
-├── supply_model_1.pkl.pkl # Pre-trained Random Forest model (pickle file)
-├── SupplyChain.csv.csv # Dataset used for training the model
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
